@@ -11,6 +11,9 @@ a {
 li {
     list-style-type: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .container {
     width: 100%;
@@ -88,4 +91,60 @@ main button:hover {
     color: black;
 
     cursor: pointer;
+}
+
+
+
+
+.about {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.about h2 {
+    font-size: 25px;
+    color: lightblue;
+}
+.about h1 {
+    font-size: 40px;
+    border-bottom: 2px solid lightblue;
+}
+.about .contents {
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+    margin-top: 50px;
+}
+.about .left {
+    width: 400px;
+    height: 500px;
+}
+.about img {
+    width: 90%;
+    height: 100%;
+    filter: grayscale(100%);
+}
+.about .right {
+    width: 800px;
+    height: 500px;
+    padding-left: 10px;
+}
+.about .right h3 {
+    font-size: 25px;
+    color: lightblue;
+}
+.about .right li {
+    font-size: 22px;
+    margin-top: 10px;
+}
+.fa-brands {
+    font-size: 40px;
+}
+.fa-youtube {
+    color: red;
+}
+.fa-facebook {
+    color: #3b5998;
 }
